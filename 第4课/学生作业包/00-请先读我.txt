@@ -1,0 +1,10 @@
+第 4 次课作业包
+队列调度  Queue / FIFO
+
+1. 阅读 docs/lesson-04.md
+2. 只改 src/herodungeon/m1_inventory/queue.py
+   填 enqueue / dequeue / peek / drain / _compact_if_needed
+3. 不要用 list.pop(0)
+4. 不要改 tests/ 和 src/herodungeon/core/
+5. pytest tests/test_queue-第4课.py
+6. 推到自己的私有仓，把 haroldss 加成 Collaborator

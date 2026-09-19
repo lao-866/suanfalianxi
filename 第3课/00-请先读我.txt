@@ -1,0 +1,12 @@
+第 3 次课作业包
+线性表与背包  Dynamic array / Inventory
+
+按这个顺序做：
+
+1. 阅读 docs/lesson-03.md
+2. 打开 src/herodungeon/m1_inventory/inventory.py
+   只改 add / remove / total_value
+3. 不要改 tests/ 和 src/herodungeon/core/
+4. pip install -e ".[dev]"
+   pytest tests/test_inventory-第3课.py
+5. 推到自己的 GitHub 私有仓，把 haroldss 加成 Collaborator
