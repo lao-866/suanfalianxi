@@ -1,0 +1,8 @@
+第 5 次课作业包
+栈与撤销  Stack / LIFO / Undo
+
+1. 阅读 docs/lesson-05.md
+2. 只改 src/herodungeon/m1_inventory/stack.py
+3. 不要改 tests/ 和 __iter__
+4. pytest tests/test_stack-第5课.py
+5. 推自己的私有仓，把 haroldss 加成 Collaborator
