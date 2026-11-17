@@ -1,0 +1,34 @@
+
+from practice import dijkstra
+
+graph = {
+    "S": [("A", 2), ("T", 10)],
+    "A": [("T", 3)],
+    "T": []
+}
+
+result = dijkstra(graph, "S", "T")
+
+print(result.path, result.cost)
+
+assert result.cost == 5
+
+
+
+from practice import dijkstra
+
+graph = {
+    "S": [("A", 2), ("T", 10)],
+    "A": [("T", 12)],
+    "T": []
+}
+
+result = dijkstra(graph, "S", "T")
+
+print(result.path, result.cost)
+
+assert result.cost == 10
+
+"""支路图中的 C 已经有累计记录，却没在 A* 中被取出，因为A* 按照 f=g+h 的大小选择节点，
+C 虽然已经被发现，但它的优先级较低，算法先取出了目标节点并结束搜索，因此 C 没有被取出。"""
+
